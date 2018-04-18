@@ -1,0 +1,66 @@
+.cursos {
+  display: block;
+  text-align: center;
+  color: #fff;
+  background-position: center;
+  background-size: cover;
+}
+
+.cursos h2 {
+  font-weight: 300;
+  font-size: 25px;
+  padding: 50px 0;
+  background-color: rgba(28, 28, 27, 0.7);
+  text-transform: uppercase;
+}
+
+.cursos h2:hover {
+  background-color: rgba(28, 28, 27, 0.2);
+  text-decoration: none;
+}
+
+.container-fluid {
+  background-color: aliceblue;
+  display: flex;
+  justify-content: center;
+}
+
+.container-fluid .caja2 {
+  text-align: center;
+  width: 50%;
+}
+
+.container-fluid .caja2 h2 {
+  font-family: Satisfy;
+  position: relative;
+}
+
+.container-fluid .caja2 h2:before {
+  content: '';
+  width: 100px;
+  display: block;
+  height: 2px;
+  background-color: black;
+  position: absolute;
+  left: 43%;
+  bottom: 1px;
+}
+
+.articuloss {
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+}
+
+@media (min-width: 780px) {
+  .cursos h2 {
+    font-size: 25px;
+    padding: 80px 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .cursos h2 {
+    padding: 80px 0;
+  }
+}
+/*# sourceMappingURL=home.css.map */
